@@ -3,7 +3,7 @@ import footerImage from "./../../img/restaurantfood.jpg"
 export function Footer() {
     return (
         <footer>
-            <img src={footerImage} alt="food display"/>
+            <img src={footerImage} width="239px" height="347px" alt="food display"/>
             <section>
                 <h6>doormat navigation</h6>
                 <ul>
