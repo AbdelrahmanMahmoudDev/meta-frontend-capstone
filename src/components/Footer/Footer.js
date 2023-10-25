@@ -1,8 +1,9 @@
 import footerImage from "./../../img/restaurantfood.jpg"
+import styles from "./Footer.module.css"
 
 export function Footer() {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <img src={footerImage} width="239px" height="347px" alt="food display"/>
             <section>
                 <h6>doormat navigation</h6>
