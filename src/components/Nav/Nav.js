@@ -1,13 +1,15 @@
+import styles from "./Nav.module.css"
+
 export function Nav() {
     return (
         <nav>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#menu">menu</a></li>
-                <li><a href="#reservations">reservations</a></li>
-                <li><a href="#order-online">order online</a></li>
-                <li><a href="#login">login</a></li>
+            <ul className={styles.ul}>
+                <li className={styles.li}><a href="#home">home</a></li>
+                <li className={styles.li}><a href="#about">about</a></li>
+                <li className={styles.li}><a href="#menu">menu</a></li>
+                <li className={styles.li}><a href="#reservations">reservations</a></li>
+                <li className={styles.li}><a href="#order-online">order online</a></li>
+                <li className={styles.li}><a href="#login">login</a></li>
             </ul>
         </nav>
     )

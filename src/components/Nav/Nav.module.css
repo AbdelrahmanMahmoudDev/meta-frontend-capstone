@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 28px;
+}
+
+a {
+    color: #000;
+    font-family: Karla;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+}
