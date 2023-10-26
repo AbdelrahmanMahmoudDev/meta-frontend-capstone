@@ -1,0 +1,65 @@
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(264.67px, 1fr));
+    height: 439px;
+    gap: 20px 0;
+}
+
+.mainDesc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainDesc h1 {
+    color: #000;
+
+/* Display Title */
+font-family: Markazi Text;
+font-size: 4rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.mainDesc button {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    color: #333333;
+    background-color: #F4CE14;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.cardContainer article,
+section > section article img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section > section article {
+    display: flex;
+    flex-flow: column;
+    width: 264.67px;
+}
+
+section > section article section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section > section article section,
+section > section article p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section > section article img {
+    height: 185.26px;
+}
