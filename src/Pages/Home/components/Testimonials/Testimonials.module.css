@@ -1,3 +1,50 @@
 .testimonials {
     background-color: #495E57;
+    padding: 20px;
+}
+
+.testimonials h1 {
+    color: var(--Secondary-3, #EDEFEE);
+    /* Display Title */
+    font-family: Markazi Text;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.cardContainer {
+    /* display: grid; */
+    /* grid-template-columns: repeat(Auto-fill, minmax(250px, 1fr)); */
+    /* gap: 10px;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cardContainer article {
+    background-color: #EDEFEE;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.cardContainer img {
+    width: 46px;
+    height: 46px;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
