@@ -26,7 +26,7 @@ const data = [{
 export function Specials() {
     return (
         <Container>
-            <section>
+            <section style={{paddingBottom: "20px"}}>
                 <section className={styles.mainDesc}>
                     <h1>this weeks specials!</h1>
                     <button>Online Menu</button>

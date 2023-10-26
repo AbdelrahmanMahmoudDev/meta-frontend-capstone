@@ -1,7 +1,6 @@
 .cardContainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(264.67px, 1fr));
-    height: 439px;
     gap: 20px 0;
 }
 
@@ -62,16 +61,10 @@ section > section article p {
     padding-right: 10px;
 }
 
-section > section article p {
-}
-
 section > section article img {
     height: 185.26px;
 }
 
 .specialsSection {
     display: flex;
-}
-
-.specialsSection p {
 }
