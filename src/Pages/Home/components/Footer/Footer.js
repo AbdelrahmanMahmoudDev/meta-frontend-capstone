@@ -1,4 +1,4 @@
-import footerImage from "./../../img/restaurantfood.jpg"
+import footerImage from "./../../../../img/restaurantfood.jpg"
 import styles from "./Footer.module.css"
 
 export function Footer() {

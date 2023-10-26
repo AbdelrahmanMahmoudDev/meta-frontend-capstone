@@ -2,3 +2,7 @@
     display: grid;
     grid-template-rows: 123px 2289px 417px;
 }
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,13 +1,18 @@
 import './App.css';
-import * as Components from "./components"
+import * as Pages from "./Pages"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 
 function App() {
   return (
-    <>
-      <Components.Header />
-      <Components.Main />
-      <Components.Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+          <Route index element={<Pages.Home />}/>
+          <Route path="/menu" element={<Pages.Menu />}/>
+          <Route path="/reservations" element={<Pages.Reservations />}/>
+          <Route path="/order-online" element={<Pages.OrderOnline />}/>
+          <Route path="/login" element={<Pages.Login />}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
