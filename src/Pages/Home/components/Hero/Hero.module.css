@@ -5,16 +5,12 @@
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: relative;
-
 }
 
 .hero section {
     padding: 10px;
-}
-
-.hero section article {
-
 }
 
 .hero section article h1 {
@@ -69,14 +65,14 @@
 }
 
 .hero img {
-    width: 375px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    position: absolute;
-    top: 48px;
-    right: 0;
+    /* position: absolute; */
+    /* top: 48px; */
+    /* right: 0; */
 }
