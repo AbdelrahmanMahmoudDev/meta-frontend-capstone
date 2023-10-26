@@ -1,6 +1,6 @@
 #root {
     display: grid;
-    grid-template-rows: 123px 2289px 417px;
+    /* grid-template-rows: 123px 2289px 417px; */
 }
 
 html {
