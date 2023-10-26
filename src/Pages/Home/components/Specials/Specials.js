@@ -28,7 +28,7 @@ export function Specials() {
         <Container>
             <section>
                 <section className={styles.mainDesc}>
-                    <h1>This weeks specials!</h1>
+                    <h1>this weeks specials!</h1>
                     <button>Online Menu</button>
                 </section>
                 <section className={styles.cardContainer}>
@@ -40,7 +40,7 @@ export function Specials() {
                                     <p>${item.price.toFixed(2)}</p>
                                 </section>
                                 <p>{item.description}</p>
-                                <section>
+                                <section className={styles.specialsSection}>
                                     <p>Order a delivery</p>
                                     <FontAwesomeIcon icon={faMotorcycle} />
                                 </section>

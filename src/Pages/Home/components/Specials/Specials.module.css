@@ -45,7 +45,9 @@ section > section article img {
 section > section article {
     display: flex;
     flex-flow: column;
+    justify-content: space-between;
     width: 264.67px;
+    position: relative;
 }
 
 section > section article section {
@@ -60,6 +62,16 @@ section > section article p {
     padding-right: 10px;
 }
 
+section > section article p {
+}
+
 section > section article img {
     height: 185.26px;
+}
+
+.specialsSection {
+    display: flex;
+}
+
+.specialsSection p {
 }
