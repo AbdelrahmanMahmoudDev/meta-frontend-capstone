@@ -1,10 +1,9 @@
 import styles from "./About.module.css"
-import {Container} from "./../../../common"
 
 export function About() {
     return (
         <section className={styles.aboutSection}>
-            <Container className="container">
+            <section>
                 <article>
                     <h1>little lemon</h1>
                     <h4>chicago</h4>
@@ -15,7 +14,7 @@ export function About() {
                     <img src={require("./../../../../img/restaurant.jpg")} alt="restaurant" />
                     <img src={require("./../../../../img/restaurant chef B.jpg")} alt="restaurant chef" />
                 </article>
-            </Container>
+            </section>
         </section>
     )
 }

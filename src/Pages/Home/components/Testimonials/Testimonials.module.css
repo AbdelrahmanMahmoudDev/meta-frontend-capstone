@@ -3,6 +3,11 @@
     padding: 20px;
 }
 
+.testimonials > section {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .testimonials h1 {
     color: var(--Secondary-3, #EDEFEE);
     /* Display Title */

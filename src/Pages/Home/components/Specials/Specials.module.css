@@ -1,7 +1,13 @@
+.specialsSection > section {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 .specialsSection .cardContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(264.67px, 1fr));
-    gap: 20px 0;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(264.67px, 1fr));
 }
 
 .specialsSection .mainDesc {
@@ -43,10 +49,9 @@ line-height: normal;
 
 .specialsSection section > section article {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: space-between;
     width: 264.67px;
-    position: relative;
 }
 
 .specialsSection section > section article section {

@@ -1,5 +1,4 @@
 import styles from "./Specials.module.css"
-import {Container} from "./../../../common"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMotorcycle } from '@fortawesome/free-solid-svg-icons'
 
@@ -26,7 +25,7 @@ const data = [{
 export function Specials() {
     return (
         <section className={styles.specialsSection}>
-            <Container>
+            <section>
                 <section style={{paddingBottom: "20px"}}>
                     <section className={styles.mainDesc}>
                         <h1>this weeks specials!</h1>
@@ -49,7 +48,7 @@ export function Specials() {
                         ))}
                     </section>
                 </section>
-            </Container>
+            </section>
         </section>
     )
 }

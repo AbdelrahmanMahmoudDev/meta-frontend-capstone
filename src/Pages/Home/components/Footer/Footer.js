@@ -1,8 +1,6 @@
 import footerImage from "./../../../../img/restaurantfood.jpg"
 import styles from "./Footer.module.css"
 
-import {Container} from "./../../../common"
-
 export function Footer() {
     return (
         <footer className={styles.footerSection}>

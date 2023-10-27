@@ -1,5 +1,4 @@
 import styles from "./Testimonials.module.css"
-import {Container} from "./../../../common"
 const data = [
     {
         title: "name",
@@ -30,7 +29,7 @@ const data = [
 export function Testimonials() {
     return (
         <section className={styles.testimonials}>
-            <Container>
+            <section>
                 <h1>Testimonials</h1>
                 <section className={styles.cardContainer}>
                     {data.map((item, index) => (
@@ -48,7 +47,7 @@ export function Testimonials() {
                         </article>
                     ))}
                 </section>
-            </Container>
+            </section>
         </section>
     )
 }
