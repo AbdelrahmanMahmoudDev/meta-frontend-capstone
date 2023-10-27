@@ -5,7 +5,7 @@ import {Container} from "./../../../common"
 export function Hero() {
     return (
         <div className={styles.hero}>
-            <Container className={styles.container}>
+            <Container>
                 <section>
                     <article>
                         <h1>little lemon</h1>

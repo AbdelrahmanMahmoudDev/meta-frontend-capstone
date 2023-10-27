@@ -1,16 +1,16 @@
-.cardContainer {
+.specialsSection .cardContainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(264.67px, 1fr));
     gap: 20px 0;
 }
 
-.mainDesc {
+.specialsSection .mainDesc {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.mainDesc h1 {
+.specialsSection .mainDesc h1 {
     color: #000;
 
 /* Display Title */
@@ -21,7 +21,7 @@ font-weight: 500;
 line-height: normal;
 }
 
-.mainDesc button {
+.specialsSection .mainDesc button {
     width: 200px;
     height: 60px;
     cursor: pointer;
@@ -35,13 +35,13 @@ line-height: normal;
     -o-border-radius: 10px;
 }
 
-.cardContainer article,
+.specialsSection .cardContainer article,
 section > section article img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-section > section article {
+.specialsSection section > section article {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -49,7 +49,7 @@ section > section article {
     position: relative;
 }
 
-section > section article section {
+.specialsSection section > section article section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,10 +61,10 @@ section > section article p {
     padding-right: 10px;
 }
 
-section > section article img {
+.specialsSection section > section article img {
     height: 185.26px;
 }
 
-.specialsSection {
+.specialsSection .deliverySection {
     display: flex;
 }

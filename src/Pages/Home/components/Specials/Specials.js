@@ -25,29 +25,31 @@ const data = [{
 
 export function Specials() {
     return (
-        <Container>
-            <section style={{paddingBottom: "20px"}}>
-                <section className={styles.mainDesc}>
-                    <h1>this weeks specials!</h1>
-                    <button>Online Menu</button>
+        <section className={styles.specialsSection}>
+            <Container>
+                <section style={{paddingBottom: "20px"}}>
+                    <section className={styles.mainDesc}>
+                        <h1>this weeks specials!</h1>
+                        <button>Online Menu</button>
+                    </section>
+                    <section className={styles.cardContainer}>
+                        {data.map((item, index) => (
+                            <article key={index} style={{backgroundColor: "#EDEFEE"}}>
+                                <img src={item.image} alt={item.title} />
+                                    <section>
+                                        <h6>{item.title}</h6>
+                                        <p>${item.price.toFixed(2)}</p>
+                                    </section>
+                                    <p>{item.description}</p>
+                                    <section className={styles.deliverySection}>
+                                        <p>Order a delivery</p>
+                                        <FontAwesomeIcon icon={faMotorcycle} />
+                                    </section>
+                            </article>
+                        ))}
+                    </section>
                 </section>
-                <section className={styles.cardContainer}>
-                    {data.map((item, index) => (
-                        <article key={index} style={{backgroundColor: "#EDEFEE"}}>
-                            <img src={item.image} alt={item.title} />
-                                <section>
-                                    <h6>{item.title}</h6>
-                                    <p>${item.price.toFixed(2)}</p>
-                                </section>
-                                <p>{item.description}</p>
-                                <section className={styles.specialsSection}>
-                                    <p>Order a delivery</p>
-                                    <FontAwesomeIcon icon={faMotorcycle} />
-                                </section>
-                        </article>
-                    ))}
-                </section>
-            </section>
-        </Container>
+            </Container>
+        </section>
     )
 }
