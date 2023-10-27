@@ -36,7 +36,7 @@ line-height: normal;
 }
 
 .specialsSection .cardContainer article,
-section > section article img {
+.specialsSection section > section article img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
