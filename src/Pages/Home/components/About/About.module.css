@@ -1,0 +1,58 @@
+.aboutSection section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.aboutSection h1 {
+    color: #000;
+    font-family: Markazi Text;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.aboutSection h4 {
+    color: var(--Secondary-4, #333);
+    font-family: Markazi Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+}
+
+.aboutSection p {
+    color: #000;
+    text-align: justify;
+    font-family: Karla;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 370px;
+}
+
+.aboutSection img {
+    width: 276px;
+    height: 338px;
+    display: block;
+}
+
+.aboutSection article:last-child {
+    position: relative;
+    background-color: white;
+}
+
+.aboutSection img:first-child {
+    position: absolute;
+    top: 90px;
+    left: -90px;
+}
+
+.aboutSection img:last-child {
+    z-index: 1;
+}
