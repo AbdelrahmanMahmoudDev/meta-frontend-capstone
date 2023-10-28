@@ -1,0 +1,27 @@
+.formSection {
+    background-color: #495E57;
+    height: calc(100vh - 78.55px);
+    color: var(--Secondary-3, #EDEFEE);
+    font-family: Karla;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSection form [type="submit"] {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    color: #333333;
+    background-color: #F4CE14;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

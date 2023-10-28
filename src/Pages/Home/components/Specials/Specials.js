@@ -24,7 +24,7 @@ const data = [{
 
 export function Specials() {
     return (
-        <section className={styles.specialsSection}>
+        <section id="menu" className={styles.specialsSection}>
             <section>
                 <section style={{paddingBottom: "20px"}}>
                     <section className={styles.mainDesc}>

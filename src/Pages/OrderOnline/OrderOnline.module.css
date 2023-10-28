@@ -1,0 +1,22 @@
+.orderSection {
+    background-color: #495E57;
+    height: 100vh;
+}
+
+.orderSection h1 {
+    color: var(--Secondary-2, #FBDABB);
+    font-family: Markazi Text;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}

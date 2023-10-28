@@ -7,7 +7,6 @@ function App() {
     <BrowserRouter>
       <Routes>
           <Route index element={<Pages.Home />}/>
-          <Route path="/menu" element={<Pages.Menu />}/>
           <Route path="/reservations" element={<Pages.Reservations />}/>
           <Route path="/order-online" element={<Pages.OrderOnline />}/>
           <Route path="/login" element={<Pages.Login />}/>
